@@ -1,0 +1,17 @@
+# euler
+
+Bobby Norton's deliberate practice sessions in clojure with problems from http://projecteuler.net.
+
+# Usage
+
+lein test 
+
+# More practice
+
+http://github.com/relevance/labrepl
+http://www.4clojure.com/problems
+
+# Clojure references
+
+http://clojure.org/cheatsheet
+http://clojuredocs.org
