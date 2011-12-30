@@ -1,17 +1,15 @@
-# euler
-
-Deliberate practice sessions in clojure. 
+## Deliberate practice sessions in clojure. 
 
 * http://projecteuler.net
 * http://github.com/relevance/labrepl
 * http://www.4clojure.com/problems
 * http://github.com/functional-koans/clojure-koans
 
-# Usage
+## Usage
 
 lein test 
 
-# Clojure references
+## API References
 
-http://clojure.org/cheatsheet
-http://clojuredocs.org
+* http://clojure.org/cheatsheet
+* http://clojuredocs.org
