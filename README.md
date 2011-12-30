@@ -1,4 +1,4 @@
-## Deliberate practice sessions in clojure. 
+## Deliberate practice sessions in clojure
 
 * http://projecteuler.net
 * http://github.com/relevance/labrepl
@@ -13,3 +13,5 @@ lein test
 
 * http://clojure.org/cheatsheet
 * http://clojuredocs.org
+* http://liebke.github.com/incanter/api-index.html
+* http://dev.clojure.org/display/design/Where+Did+Clojure.Contrib+Go

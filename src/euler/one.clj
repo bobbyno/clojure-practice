@@ -1,8 +1,16 @@
-(ns euler.one)
+(ns euler.one
+  (:use [incanter.stats]
+        [clojure.math.numeric-tower]))
 
-(defn calc
+(defn arithmetic-series [n]
+  (if (< n 0) (throw (ArithmeticException. "only supports natural numbers")))
+  (* n (mean [n 1])))
+
+(defn sum-divisible-by
+  [n upper]
+  (let [p (floor (/ (dec upper) n))]
+	(* n (arithmetic-series p))))
+	
+(defn fast-calc
   [upper]
-  (let [multiple? (fn [x] (or (zero? (mod x 3)) (zero? (mod x 5))))]
-    (->> (range upper) 
-         (filter multiple?) 
-         (reduce +))))
+  (- (+ (sum-divisible-by 3 upper) (sum-divisible-by 5 upper)) (sum-divisible-by 15 upper)))
