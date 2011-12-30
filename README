@@ -1,15 +1,15 @@
 # euler
 
-Bobby Norton's deliberate practice sessions in clojure with problems from http://projecteuler.net.
+Deliberate practice sessions in clojure. 
+
+* http://projecteuler.net
+* http://github.com/relevance/labrepl
+* http://www.4clojure.com/problems
+* http://github.com/functional-koans/clojure-koans
 
 # Usage
 
 lein test 
-
-# More practice
-
-http://github.com/relevance/labrepl
-http://www.4clojure.com/problems
 
 # Clojure references
 
