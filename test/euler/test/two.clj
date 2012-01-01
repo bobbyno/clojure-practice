@@ -13,3 +13,8 @@
   (is (= 5 (fibonacci 5)))
   (is (= 6765 (fibonacci 20)))
 )
+
+(deftest test-fib-under
+  (is (= '(0 1 1 2 3 5 8 13 21 34 55 89) (fib-values-under 90)))
+)
+
