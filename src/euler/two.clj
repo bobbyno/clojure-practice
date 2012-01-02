@@ -21,3 +21,10 @@
   [max]  
   (take-while #(< % max) (fibonacci-seq)))
 
+(defn k-fib-terms
+  [k]
+  (take k (fibonacci-seq)))
+
+(defn sum-even-valued-terms-under
+  [n]
+  (reduce + (filter even? (fib-values-under n))))

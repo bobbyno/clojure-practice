@@ -15,6 +15,14 @@
 )
 
 (deftest test-fib-under
-  (is (= '(0 1 1 2 3 5 8 13 21 34 55 89) (fib-values-under 90)))
+  (is (= '(0 1 1 2 3 5 8 13 21 34) (fib-values-under 50)))
 )
 
+(deftest test-fib-terms
+  (is (= '(0 1 1 2 3 5 8 13 21 34) (k-fib-terms 10)))
+)
+
+(deftest test-sum-even-valued-terms-under
+  (is (= 44 (sum-even-valued-terms-under 50)))
+  (is (= 4613732 (sum-even-valued-terms-under 4e6)))
+)
