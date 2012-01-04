@@ -2,7 +2,7 @@
 
 ; from Programming Clojure, p. 157
 (defn fibonacci-seq []
-  (map first (iterate (fn [[a b]] [b (+ a b)]) [0 1])))
+  (map first (iterate (fn [[a b]] [(bigint b) (bigint (+ a b))]) [0 1])))
 
 (defn fib-values-under [max]  
   (take-while #(< % max) (fibonacci-seq)))
@@ -15,3 +15,4 @@
 
 (defn fibonacci [k]
   (last (take k (fibonacci-seq))))
+
