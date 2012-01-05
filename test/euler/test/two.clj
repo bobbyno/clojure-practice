@@ -1,8 +1,6 @@
 (ns euler.test.two
   (:use [euler.two]
 		[clojure.test]))
-		
-; http://projecteuler.net/problem=2		
 
 (deftest test-fibonacci-terms
   (is (= 0 (fibonacci 1)))

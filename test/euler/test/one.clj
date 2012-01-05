@@ -2,8 +2,6 @@
   (:use [euler.one]
   		[clojure.test]))
 
-; http://projecteuler.net/problem=1
-
 (deftest test-arithmetic-series
   (is (thrown? ArithmeticException (arithmetic-series -1)))
   (is (= 0.0 (arithmetic-series 0)))
