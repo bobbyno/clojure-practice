@@ -15,3 +15,4 @@ lein test
 * http://clojuredocs.org
 * http://liebke.github.com/incanter/api-index.html
 * http://dev.clojure.org/display/design/Where+Did+Clojure.Contrib+Go
+* https://github.com/mmcgrana/ring/wiki/Concepts
