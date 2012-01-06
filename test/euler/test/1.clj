@@ -1,5 +1,5 @@
-(ns euler.test.one
-  (:use [euler.one]
+(ns euler.test.1
+  (:use [euler.1]
   		[clojure.test]))
 
 ; http://projecteuler.net/problem=1

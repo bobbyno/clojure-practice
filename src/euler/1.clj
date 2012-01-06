@@ -1,4 +1,4 @@
-(ns euler.one
+(ns euler.1
   (:use [incanter.stats]
         [clojure.math.numeric-tower]))
 

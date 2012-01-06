@@ -1,4 +1,4 @@
-(ns euler.two)
+(ns euler.2)
 
 ; from Programming Clojure, p. 157
 (defn fibonacci-seq []

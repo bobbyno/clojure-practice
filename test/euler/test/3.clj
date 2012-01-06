@@ -1,6 +1,6 @@
-(ns euler.test.three
+(ns euler.test.3
   (:use [clojure.test]
-	    [euler.three]))
+	    [euler.3]))
 
 
 ;(deftest test-prime-factors

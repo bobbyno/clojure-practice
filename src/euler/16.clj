@@ -1,4 +1,4 @@
-(ns euler.sixteen)
+(ns euler.16)
 
 (defn two-str 
   "Represent the value of raising 2 to the given power as a string with no loss of precision"

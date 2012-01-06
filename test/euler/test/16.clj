@@ -1,5 +1,5 @@
-(ns euler.test.sixteen
-  (:use [euler.sixteen]
+(ns euler.test.16
+  (:use [euler.16]
         [clojure.test]))
 
 (deftest test-two-str
