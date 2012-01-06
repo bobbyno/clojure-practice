@@ -1,10 +1,6 @@
 (ns euler.1
-  (:use [incanter.stats]
-        [clojure.math.numeric-tower]))
-
-(defn arithmetic-series [n]
-  (if (< n 0) (throw (ArithmeticException. "only supports natural numbers")))
-  (* n (mean [n 1])))
+  (:use [clojure.math.numeric-tower]
+		[euler.common]))
 
 (defn sum-divisible-by
   [n upper]
