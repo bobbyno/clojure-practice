@@ -1,5 +1,6 @@
-(ns euler.test.one
-  (:use [euler.one]
+(ns euler.test.1
+  (:use [euler.1]
+		[euler.common]
   		[clojure.test]))
 
 (deftest test-arithmetic-series
