@@ -1,4 +1,4 @@
-(ns euler.2)
+(ns euler.fibs)
 
 ; from Programming Clojure, p. 157
 (defn fibonacci-seq []
@@ -16,3 +16,5 @@
 (defn fibonacci [k]
   (last (take k (fibonacci-seq))))
 
+(defn fib-with-term-sized [k]
+  (count (take-while #(< (count (str %)) k) (fibonacci-seq))))

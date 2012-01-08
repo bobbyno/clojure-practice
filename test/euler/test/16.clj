@@ -1,5 +1,6 @@
 (ns euler.test.16
   (:use [euler.16]
+		[euler.common]
         [clojure.test]))
 
 (deftest test-two-str
@@ -8,6 +9,6 @@
 )
 
 (deftest test-sum-digits
-  (is (= 26 (sum-digits 15)))
-  (is (= 1366 (sum-digits 1000)))
+  (is (= 26 (sum-digits (two-str 15))))
+  (is (= 1366 (sum-digits (two-str 1000))))
 )

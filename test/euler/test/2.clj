@@ -1,5 +1,5 @@
 (ns euler.test.2
-  (:use [euler.2]
+  (:use [euler.fibs]
 		[clojure.test]))
 
 (deftest test-fibonacci-terms

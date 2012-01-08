@@ -5,5 +5,3 @@
   [n]
   (.toPlainString (BigDecimal. (Math/pow 2 n))))
 
-(defn sum-digits [n]
-  (reduce + (map #(Integer/parseInt (str %)) (seq (two-str n)))))
