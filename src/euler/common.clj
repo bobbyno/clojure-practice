@@ -7,3 +7,6 @@
 
 (defn sum-digits [n]
   (reduce + (map #(Integer/parseInt (str %)) (seq n))))
+
+(defn mult-digits [n]
+  (reduce * (map #(Integer/parseInt (str %)) (seq n))))
