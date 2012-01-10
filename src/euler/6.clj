@@ -1,5 +1,5 @@
 (ns euler.6
-  (:use [euler.common]))
+  (:use euler.common))
 
 (defn sum-squares [n]
  (/ (* n (inc (* 2 n)) (inc n)) 6))

@@ -1,7 +1,7 @@
 (ns euler.test.16
-  (:use [euler.16]
-		[euler.common]
-        [clojure.test]))
+  (:use euler.16
+		euler.common
+        clojure.test))
 
 (deftest test-two-str
   (is (= "1024" (two-str 10)))

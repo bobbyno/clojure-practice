@@ -1,6 +1,6 @@
 (ns euler.test.6
-  (:use [clojure.test]
-	    [euler.6]))
+  (:use clojure.test
+	    euler.6))
 	
 (deftest test-sum-squares 
   (is (= 385 (sum-squares 10)))

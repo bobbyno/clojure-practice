@@ -1,6 +1,6 @@
 (ns euler.test.10
-  (:use [euler.primes]
-		[clojure.test]))
+  (:use euler.primes
+		clojure.test))
 
 (deftest test-sum-primes-below
   (is (= 17 (sum-primes-below 10)))

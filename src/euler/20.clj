@@ -1,5 +1,5 @@
 (ns euler.20
-  (:use [euler.common]))
+  (:use euler.common))
 
 (defn ! [x]
   (letfn [(factorial [x product]

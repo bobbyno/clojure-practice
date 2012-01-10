@@ -1,7 +1,7 @@
 (ns euler.test.20
-  (:use [clojure.test]
-	    [euler.common]
-	    [euler.20]))
+  (:use clojure.test
+	    euler.common
+	    euler.20))
 	
 (deftest test-!
   (is (= 1 (! 0)))

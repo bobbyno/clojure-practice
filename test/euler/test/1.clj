@@ -1,7 +1,7 @@
 (ns euler.test.1
-  (:use [euler.1]
-		[euler.common]
-  		[clojure.test]))
+  (:use clojure.test
+		euler.1
+		euler.common))
 
 (deftest test-arithmetic-series
   (is (thrown? ArithmeticException (arithmetic-series -1)))

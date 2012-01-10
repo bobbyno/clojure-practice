@@ -1,6 +1,6 @@
 (ns euler.test.25
-  (:use [clojure.test] 
-        [euler.fibs]))
+  (:use clojure.test
+        euler.fibs))
 
 
 (deftest test-fib-with-term-sized

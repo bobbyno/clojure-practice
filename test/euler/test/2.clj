@@ -1,6 +1,6 @@
 (ns euler.test.2
-  (:use [euler.fibs]
-		[clojure.test]))
+  (:use euler.fibs
+		clojure.test))
 
 (deftest test-fibonacci-terms
   (is (= 0 (fibonacci 1)))

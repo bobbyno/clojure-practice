@@ -1,6 +1,6 @@
 (ns euler.test.7
-  (:use [clojure.test]
-		[euler.primes]))
+  (:use clojure.test
+		euler.primes))
 		
 
 (deftest test-is-prime

@@ -1,5 +1,5 @@
 (ns euler.8
-  (:use [euler.common]))
+  (:use euler.common))
 
 (defn take-five [x]
   (letfn [(retake [y winner]

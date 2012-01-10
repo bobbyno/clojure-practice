@@ -1,5 +1,5 @@
 (ns euler.common
-  (:use [incanter.stats]))
+  (:use [incanter.stats :only [mean]]))
 
 (defn arithmetic-series [n]
   (if (< n 0) (throw (ArithmeticException. "only supports natural numbers")))
