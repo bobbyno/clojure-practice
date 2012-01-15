@@ -6,5 +6,8 @@
 (defn nth-prime [n]
   (nth (filter #(is-prime %) (iterate inc 1)) n))
 
+(defn primes-below [n]
+  (filter #(is-prime %) (range 2 n)))
+
 (defn sum-primes-below [n]
-  (reduce + (filter #(is-prime %) (range 2 n))))
+  (reduce + (primes-below n)))
