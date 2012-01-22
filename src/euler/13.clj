@@ -3,4 +3,4 @@
 			[clojure.java.io :as io]))
 			
 (defn first-ten []
-  (apply str (take 10 (str (reduce + (map bigint (string/split (slurp (.getFile (io/resource "numbers.txt"))) #"\n")))))))
+  (apply str (take 10 (str (reduce + (map bigint (string/split (slurp (io/resource "numbers.txt")) #"\n")))))))
